@@ -119,6 +119,18 @@ public class Main extends Application {
                 "Ślusarz",
                 "Kierowca"
         );
+
+        //forms
+        Label nameLabel = new Label("Name:");
+        TextField name = new TextField();
+        Label secondNameLabel = new Label("Second name:");
+        TextField secondName = new TextField();
+        ObservableList<String> occupations = FXCollections.observableArrayList(
+                "Mechanik",
+                "Stolarz",
+                "Piekarz"
+        );
+
         Label birthDateLabel = new Label("Birth date:");
         DatePicker birthDate = new DatePicker();
         birthDate.setPromptText("Set birth date");
