@@ -7,4 +7,10 @@ public class Main
     {
         System.out.println("jestescie tutaj");
     }
+
+    public void klasa()
+    {
+        System.out.println("tutaj nowa klasa");
+    }
+
 }
